@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Defs>
+    <!-- MkXPhobos -->
+    <Core40k.MaskDef ParentName="BEWH_MaskDef_Thing">
+        <defName>BEWH_MkXPhobosArmorPauldronsMask</defName>
+        <label>Pauldrons</label>
+        <description>Colorable pauldrons paint pattern.</description>
+        <maskPath>Things/Armor/Imperium/PowerArmor/MkXPhobosPowerArmor/Masks/Pauldrons/BEWH_MkXPhobos_PauldronsBody</maskPath>
+        <appliesTo>
+            <li>BEWH_MkXPhobosPowerArmor</li>
+        </appliesTo>
+        <shaderType>BEWH_CutoutThreeColor</shaderType>
+        <colorAmount>3</colorAmount>
+        <sortOrder>1</sortOrder>
+    </Core40k.MaskDef>
+    <Core40k.MaskDef ParentName="BEWH_MaskDef_Thing">
+        <defName>BEWH_MkXPhobosArmorHalvedMask</defName>
+        <label>Halved</label>
+        <description>Halved armor paint pattern.</description>
+        <maskPath>Things/Armor/Imperium/PowerArmor/MkXPhobosPowerArmor/Masks/Halved/BEWH_MkXPhobos_HalvedBody</maskPath>
+        <appliesTo>
+            <li>BEWH_MkXPhobosPowerArmor</li>
+        </appliesTo>
+        <shaderType>BEWH_CutoutThreeColor</shaderType>
+        <colorAmount>3</colorAmount>
+        <sortOrder>2</sortOrder>
+    </Core40k.MaskDef>
+    <Core40k.MaskDef ParentName="BEWH_MaskDef_Thing">
+        <defName>BEWH_MkXPhobosArmorCheckeredMask</defName>
+        <label>Checkered</label>
+        <description>Checkered armor paint pattern.</description>
+        <maskPath>Things/Armor/Imperium/PowerArmor/MkXPhobosPowerArmor/Masks/Checkered/BEWH_MkXPhobos_CheckeredBody</maskPath>
+        <appliesTo>
+            <li>BEWH_MkXPhobosPowerArmor</li>
+        </appliesTo>
+        <shaderType>BEWH_CutoutThreeColor</shaderType>
+        <colorAmount>3</colorAmount>
+        <sortOrder>3</sortOrder>
+    </Core40k.MaskDef>
+    <!-- MkXGravis -->
+    <Core40k.MaskDef ParentName="BEWH_MaskDef_Thing">
+        <defName>BEWH_MkXGravisArmorPauldronsMask</defName>
+        <label>Pauldrons</label>
+        <description>Colorable pauldrons paint pattern.</description>
+        <maskPath>Things/Armor/Imperium/PowerArmor/MkXGravisPowerArmor/Masks/Pauldrons/BEWH_MkXGravis_PauldronsBody</maskPath>
+        <appliesTo>
+            <li>BEWH_MkXGravisPowerArmor</li>
+        </appliesTo>
+        <shaderType>BEWH_CutoutThreeColor</shaderType>
+        <colorAmount>3</colorAmount>
+        <sortOrder>1</sortOrder>
+    </Core40k.MaskDef>
+    <Core40k.MaskDef ParentName="BEWH_MaskDef_Thing">
+        <defName>BEWH_MkXGravisArmorHalvedMask</defName>
+        <label>Halved</label>
+        <description>Halved armor paint pattern.</description>
+        <maskPath>Things/Armor/Imperium/PowerArmor/MkXGravisPowerArmor/Masks/Halved/BEWH_MkXGravis_HalvedBody</maskPath>
+        <appliesTo>
+            <li>BEWH_MkXGravisPowerArmor</li>
+        </appliesTo>
+        <shaderType>BEWH_CutoutThreeColor</shaderType>
+        <colorAmount>3</colorAmount>
+        <sortOrder>2</sortOrder>
+    </Core40k.MaskDef>
+    <Core40k.MaskDef ParentName="BEWH_MaskDef_Thing">
+        <defName>BEWH_MkXGravisArmorCheckeredMask</defName>
+        <label>Checkered</label>
+        <description>Checkered armor paint pattern.</description>
+        <maskPath>Things/Armor/Imperium/PowerArmor/MkXGravisPowerArmor/Masks/Checkered/BEWH_MkXGravis_CheckeredBody</maskPath>
+        <appliesTo>
+            <li>BEWH_MkXGravisPowerArmor</li>
+        </appliesTo>
+        <shaderType>BEWH_CutoutThreeColor</shaderType>
+        <colorAmount>3</colorAmount>
+        <sortOrder>3</sortOrder>
+    </Core40k.MaskDef>
+    <!-- Indomitus Terminator -->
+    <Core40k.MaskDef ParentName="BEWH_MaskDef_Thing">
+        <defName>BEWH_IndomitusArmorPauldronsMask</defName>
+        <label>Pauldrons</label>
+        <description>Colorable pauldrons paint pattern.</description>
+        <maskPath>Things/Armor/Imperium/PowerArmor/IndomitusPowerArmor/Masks/Pauldrons/BEWH_Indomitus_PauldronsBody</maskPath>
+        <appliesTo>
+            <li>BEWH_IndomitusPowerArmor</li>
+        </appliesTo>
+        <shaderType>BEWH_CutoutThreeColor</shaderType>
+        <colorAmount>3</colorAmount>
+        <sortOrder>1</sortOrder>
+    </Core40k.MaskDef>
+    <Core40k.MaskDef ParentName="BEWH_MaskDef_Thing">
+        <defName>BEWH_IndomitusArmorHalvedMask</defName>
+        <label>Halved</label>
+        <description>Halved armor paint pattern.</description>
+        <maskPath>Things/Armor/Imperium/PowerArmor/IndomitusPowerArmor/Masks/Halved/BEWH_Indomitus_HalvedBody</maskPath>
+        <appliesTo>
+            <li>BEWH_IndomitusPowerArmor</li>
+        </appliesTo>
+        <shaderType>BEWH_CutoutThreeColor</shaderType>
+        <colorAmount>3</colorAmount>
+        <sortOrder>2</sortOrder>
+    </Core40k.MaskDef>
+    <Core40k.MaskDef ParentName="BEWH_MaskDef_Thing">
+        <defName>BEWH_IndomitusArmorCheckeredMask</defName>
+        <label>Checkered</label>
+        <description>Checkered armor paint pattern.</description>
+        <maskPath>Things/Armor/Imperium/PowerArmor/IndomitusPowerArmor/Masks/Checkered/BEWH_Indomitus_CheckeredBody</maskPath>
+        <appliesTo>
+            <li>BEWH_IndomitusPowerArmor</li>
+        </appliesTo>
+        <shaderType>BEWH_CutoutThreeColor</shaderType>
+        <colorAmount>3</colorAmount>
+        <sortOrder>3</sortOrder>
+    </Core40k.MaskDef>
+</Defs>

@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Defs>
+    <!-- MK 10 Phobos-->
+    <ThingDef ParentName="BEWH_PowerArmorHelmetBase">
+        <defName>BEWH_MkXPhobosPowerArmorHelmet</defName>
+        <label>Mk X Phobos Power Armor Helmet</label>
+        <description>A lightweight helm favored by Phobos-armored Primaris, built for stealth and agility. Its compact sensors, enhanced vox, and low-profile design aid covert strikes and reconnaissance.</description>
+        <recipeMaker>
+            <researchPrerequisite>BEWH_PowerArmorMkX</researchPrerequisite>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Headgear/Imperium/PowerArmor/MkXPhobosPowerArmorHelmet/BEWH_MkXPhobosHelmet</texPath>
+        </graphicData>
+        <statBases>
+            <WorkToMake>28000</WorkToMake>
+            <MarketValue>3200</MarketValue>
+            <ArmorRating_Sharp>1.04</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.64</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.96</ArmorRating_Heat>
+            <Insulation_Cold>5</Insulation_Cold>
+            <Insulation_Heat>4</Insulation_Heat>
+        </statBases>
+        <equippedStatOffsets>
+            <TerrorSource MayRequire="Ludeon.RimWorld.Ideology">8</TerrorSource>
+            <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.67</VacuumResistance>
+            <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+            <MeleeHitChance>2</MeleeHitChance>
+            <MeleeDodgeChance>5</MeleeDodgeChance>
+        </equippedStatOffsets>
+        <costList>
+            <ComponentSpacer>2</ComponentSpacer>
+            <Plasteel>50</Plasteel>
+        </costList>
+        <apparel>
+            <wornGraphicPath>Things/Headgear/Imperium/PowerArmor/MkXPhobosPowerArmorHelmet/BEWH_MkXPhobosHelmet</wornGraphicPath>
+            <tags>
+                <li>BEWH_PowerArmorHelmetMkXPhobos</li>
+            </tags>
+        </apparel>
+        <comps>
+            <li Class="Genes40k.CompProperties_ChapterColor">
+                </li>
+            <li Class="Core40k.CompProperties_Decorative">
+                <decorativeType>Head</decorativeType>
+            </li>
+        </comps>
+    </ThingDef>
+    <!-- MK 10 Gravis-->
+    <ThingDef ParentName="BEWH_PowerArmorHelmetBase">
+        <defName>BEWH_MkXGravisPowerArmorHelmet</defName>
+        <label>Mk X Gravis Power Armor Helmet</label>
+        <description>A reinforced helm for Gravis-armored Primaris, offering superior protection with advanced life-support systems. Its bulkier frame houses redundant sensors and hardened plating for prolonged frontline engagements.</description>
+        <recipeMaker>
+            <researchPrerequisite>BEWH_PowerArmorMkX</researchPrerequisite>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Headgear/Imperium/PowerArmor/MkXGravisPowerArmorHelmet/BEWH_MkXGravisHelmet</texPath>
+        </graphicData>
+        <statBases>
+            <WorkToMake>42000</WorkToMake>
+            <MarketValue>4800</MarketValue>
+            <ArmorRating_Sharp>1.44</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.96</ArmorRating_Blunt>
+            <ArmorRating_Heat>1.44</ArmorRating_Heat>
+            <Insulation_Cold>7</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+        </statBases>
+        <equippedStatOffsets>
+            <TerrorSource MayRequire="Ludeon.RimWorld.Ideology">8</TerrorSource>
+            <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.67</VacuumResistance>
+            <MeleeDodgeChance>-0.125</MeleeDodgeChance>
+        </equippedStatOffsets>
+        <costList>
+            <ComponentSpacer>2</ComponentSpacer>
+            <Plasteel>80</Plasteel>
+        </costList>
+        <apparel>
+            <wornGraphicPath>Things/Headgear/Imperium/PowerArmor/MkXGravisPowerArmorHelmet/BEWH_MkXGravisHelmet</wornGraphicPath>
+            <tags>
+                <li>BEWH_PowerArmorHelmetMkXGravis</li>
+            </tags>
+        </apparel>
+        <comps>
+            <li Class="Genes40k.CompProperties_ChapterColor">
+                </li>
+            <li Class="Core40k.CompProperties_Decorative">
+                <decorativeType>Head</decorativeType>
+            </li>
+        </comps>
+    </ThingDef>
+    <!-- Indomitus Terminator-->
+    <ThingDef ParentName="BEWH_PowerArmorHelmetBase">
+        <defName>BEWH_IndomitusPowerArmorHelmet</defName>
+        <label>Indomitus Terminator Power Armor Helmet</label>
+        <description>A heavy helm of the Indomitus pattern Terminator plate, layered with dense ceramite and enhanced auspex arrays. Its formidable design provides unmatched defense and battlefield awareness in the harshest conditions.</description>
+        <recipeMaker>
+            <researchPrerequisite>BEWH_PowerArmorMkX</researchPrerequisite>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Headgear/Imperium/PowerArmor/IndomitusPowerArmorHelmet/BEWH_IndomitusHelmet</texPath>
+        </graphicData>
+        <statBases>
+            <WorkToMake>49000</WorkToMake>
+            <MarketValue>5600</MarketValue>
+            <ArmorRating_Sharp>1.82</ArmorRating_Sharp>
+            <ArmorRating_Blunt>1.12</ArmorRating_Blunt>
+            <ArmorRating_Heat>1.68</ArmorRating_Heat>
+            <Insulation_Cold>8</Insulation_Cold>
+            <Insulation_Heat>6</Insulation_Heat>
+        </statBases>
+        <equippedStatOffsets>
+            <TerrorSource MayRequire="Ludeon.RimWorld.Ideology">8</TerrorSource>
+            <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.67</VacuumResistance>
+            <MeleeDodgeChance>-0.25</MeleeDodgeChance>
+            <WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+            <ResearchSpeed>-0.05</ResearchSpeed>
+        </equippedStatOffsets>
+        <costList>
+            <ComponentSpacer>3</ComponentSpacer>
+            <Plasteel>100</Plasteel>
+        </costList>
+        <apparel>
+            <wornGraphicPath>Things/Headgear/Imperium/PowerArmor/IndomitusPowerArmorHelmet/BEWH_IndomitusHelmet</wornGraphicPath>
+            <tags>
+                <li>BEWH_PowerArmorHelmetIndomitus</li>
+            </tags>
+        </apparel>
+        <comps>
+            <li Class="Genes40k.CompProperties_ChapterColor">
+                </li>
+            <li Class="Core40k.CompProperties_Decorative">
+                <decorativeType>Head</decorativeType>
+            </li>
+        </comps>
+    </ThingDef>
+</Defs>

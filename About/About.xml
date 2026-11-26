@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ModMetaData>
+    <name>RimDark 40k - MorePowerArmor Continued 1.7</name>
+    <author>Portesel, Manu30/Merk</author>
+    <modVersion>1.2.0</modVersion>
+    <supportedVersions>
+        <li>1.6</li>
+        <li>1.7</li>
+    </supportedVersions>
+    <packageId>Portesel.RimDark.MorePowerArmor</packageId>
+    <description>Add Mk X Phobos set, Mk X Gravis set and Terminator Indomitus for RimDark 40k - Mankind's Finest made by Phonicmas, Mewn Goddess and Grim Cheese. Original mod by Portesel. RimWorld 1.7 compatibility update by Manu30/Merk.</description>
+    <modDependencies>
+        <li>
+            <packageId>Ludeon.RimWorld.Biotech</packageId>
+            <displayName>Biotech</displayName>
+        </li>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>Phonicmas.RimDark.FrameworkCore</packageId>
+            <displayName>RimDark 40k - Framework</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3267464767</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>Phonicmas.RimDark.MankindsFinest</packageId>
+            <displayName>RimDark 40k - Mankind's Finest</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3505068525</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>Ludeon.RimWorld</li>
+        <li>Ludeon.RimWorld.Biotech</li>
+        <li>brrainz.harmony</li>
+        <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+        <li>Phonicmas.RimDark.FrameworkCore</li>
+        <li>Phonicmas.RimDark.MankindsFinest</li>
+    </loadAfter>
+</ModMetaData>

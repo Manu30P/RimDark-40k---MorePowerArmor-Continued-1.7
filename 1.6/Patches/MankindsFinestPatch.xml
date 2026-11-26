@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>RimDark 40k - Mankinds Finest</li>
+        </mods>
+        <!-- Run many patch ops as one sequence if the mod is present -->
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Genes40k.ChapterColourDef[@Name="BEWH_ChapterColourPresets"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXPhobosPowerArmorHelmet</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmorHelmet</li>
+                        <li>BEWH_IndomitusPowerArmor</li>
+                        <li>BEWH_IndomitusPowerArmorHelmet</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="BEWH_MkVIIPowerArmor"]/modExtensions</xpath>
+                    <value>
+                        <li Class="Genes40k.DefModExtension_IgnoreMovespeedDecrease">
+                            <newMoveSpeedOffset>0.25</newMoveSpeedOffset>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="BEWH_MkXPowerArmor"]/modExtensions</xpath>
+                    <value>
+                        <li Class="Genes40k.DefModExtension_IgnoreMovespeedDecrease">
+                            <newMoveSpeedOffset>0.25</newMoveSpeedOffset>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="BEWH_MkXPowerArmorChaplain"]/modExtensions</xpath>
+                    <value>
+                        <li Class="Genes40k.DefModExtension_IgnoreMovespeedDecrease">
+                            <newMoveSpeedOffset>0.25</newMoveSpeedOffset>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_DecoPouch_1"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                        <li>BEWH_IndomitusPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_DecoPouchBelt"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_DecoRelic_1"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                        <li>BEWH_IndomitusPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_DecoRelic_2"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                        <li>BEWH_IndomitusPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_DecoPSeal_1"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_DecoPSeal_2"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_DecoPSeal_3"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                        <li>BEWH_IndomitusPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_DecoPSeal_4"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                        <li>BEWH_IndomitusPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_DecoPSeal_5"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                        <li>BEWH_IndomitusPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_Deco_ClawMarks_1"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_Deco_Rondel1"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                        <li>BEWH_IndomitusPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_Deco_Rondel2"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                        <li>BEWH_IndomitusPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_IronHalo_1"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_IronHalo_2"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_Deco_Grenade_1"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                        <li>BEWH_IndomitusPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_Deco_Grenade_2"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                        <li>BEWH_IndomitusPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_Deco_KrGrenade_1"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                        <li>BEWH_IndomitusPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_Deco_KrGrenade_2"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                        <li>BEWH_IndomitusPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_Deco_BGUpperTabard"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_Deco_MkXApothecaryTabard"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_Deco_MkXBlankTabard"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_Deco_BGShoulderDrape"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_Deco_ShoulderDrape2"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_Deco_HonourCords_1"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_Deco_BGLowerTabardMkX"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_Deco_Cape"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmor</li>
+                        <li>BEWH_MkXGravisPowerArmor</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_MkXBladeguardBrim"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmorHelmet</li>
+                        <li>BEWH_MkXGravisPowerArmorHelmet</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_Deco_MkX_VictrixBrim"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmorHelmet</li>
+                        <li>BEWH_MkXGravisPowerArmorHelmet</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_MkXclawMarks_1"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmorHelmet</li>
+                        <li>BEWH_MkXGravisPowerArmorHelmet</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_MkXclawMarks_2"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmorHelmet</li>
+                        <li>BEWH_MkXGravisPowerArmorHelmet</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_DecoInquisInsignia"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmorHelmet</li>
+                        <li>BEWH_MkXGravisPowerArmorHelmet</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_Deco_MkXApothecarySymbol"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmorHelmet</li>
+                        <li>BEWH_MkXGravisPowerArmorHelmet</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_DecoSkull"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmorHelmet</li>
+                        <li>BEWH_MkXGravisPowerArmorHelmet</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_DecoLaurels"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmorHelmet</li>
+                        <li>BEWH_MkXGravisPowerArmorHelmet</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_DecoHood"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmorHelmet</li>
+                        <li>BEWH_MkXGravisPowerArmorHelmet</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_MkXDecoStripe"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmorHelmet</li>
+                        <li>BEWH_MkXGravisPowerArmorHelmet</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_MkXLieutenantStripe"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmorHelmet</li>
+                        <li>BEWH_MkXGravisPowerArmorHelmet</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_Deco_Visor_1"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmorHelmet</li>
+                        <li>BEWH_MkXGravisPowerArmorHelmet</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_Deco_MkXLenseGlow"]/appliesTo</xpath>
+                    <value>
+                        <li>BEWH_MkXPhobosPowerArmorHelmet</li>
+                        <li>BEWH_MkXGravisPowerArmorHelmet</li>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

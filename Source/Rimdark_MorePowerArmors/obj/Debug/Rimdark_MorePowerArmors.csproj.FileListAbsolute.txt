@@ -1,0 +1,6 @@
+C:\Logiciels\Steam\steamapps\common\RimWorld\Mods\3567575968\1.6\Assemblies\Rimdark_MorePowerArmors.dll
+C:\Logiciels\Steam\steamapps\common\RimWorld\Mods\3567575968\1.6\Assemblies\Rimdark_MorePowerArmors.pdb
+C:\Logiciels\Steam\steamapps\common\RimWorld\Mods\3567575968\Source\Rimdark_MorePowerArmors\obj\Debug\Rimdark_MorePowerArmors.csproj.AssemblyReference.cache
+C:\Logiciels\Steam\steamapps\common\RimWorld\Mods\3567575968\Source\Rimdark_MorePowerArmors\obj\Debug\Rimdark_MorePowerArmors.csproj.CoreCompileInputs.cache
+C:\Logiciels\Steam\steamapps\common\RimWorld\Mods\3567575968\Source\Rimdark_MorePowerArmors\obj\Debug\Rimdark_MorePowerArmors.dll
+C:\Logiciels\Steam\steamapps\common\RimWorld\Mods\3567575968\Source\Rimdark_MorePowerArmors\obj\Debug\Rimdark_MorePowerArmors.pdb
