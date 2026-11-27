@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Manu30\\Desktop\\proyectos\\RimDark_40k_-_MorePowerArmor\\RimDark 40k - MorePowerArmor\\Source\\Rimdark_MorePowerArmors\\Rimdark_MorePowerArmors_1.7.csproj",
+      "projectUniqueName": "C:\\Users\\Manu30\\Documents\\GitHub\\RimDark-40k---MorePowerArmor-Continued-1.7\\Source\\Rimdark_MorePowerArmors\\Rimdark_MorePowerArmors_1.7.csproj",
       "projectName": "Rimdark_MorePowerArmors",
-      "projectPath": "C:\\Users\\Manu30\\Desktop\\proyectos\\RimDark_40k_-_MorePowerArmor\\RimDark 40k - MorePowerArmor\\Source\\Rimdark_MorePowerArmors\\Rimdark_MorePowerArmors_1.7.csproj",
+      "projectPath": "C:\\Users\\Manu30\\Documents\\GitHub\\RimDark-40k---MorePowerArmor-Continued-1.7\\Source\\Rimdark_MorePowerArmors\\Rimdark_MorePowerArmors_1.7.csproj",
       "packagesPath": "C:\\Users\\Manu30\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Manu30\\Desktop\\proyectos\\RimDark_40k_-_MorePowerArmor\\RimDark 40k - MorePowerArmor\\Source\\Rimdark_MorePowerArmors\\obj\\",
+      "outputPath": "C:\\Users\\Manu30\\Documents\\GitHub\\RimDark-40k---MorePowerArmor-Continued-1.7\\Source\\Rimdark_MorePowerArmors\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Manu30\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Manu30\\AppData\\Local\\Temp\\dotnet-sdk-rimworld-1.7\\sdk\\10.0.404/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.404/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

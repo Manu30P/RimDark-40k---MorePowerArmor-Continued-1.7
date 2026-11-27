@@ -327,6 +327,54 @@
                         <li>BEWH_MkXGravisPowerArmorHelmet</li>
                     </value>
                 </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Genes40k.ShoulderIconDef[@Name="BEWH_RankShoulderIcon"]</xpath>
+                    <value>
+                        <apparelSpecificDrawData>
+                            <li>
+                                <key>BEWH_IndomitusPowerArmor</key>
+                                <value>
+                                    <dataNorth>
+                                        <offset>(0.12,0,0)</offset>
+                                    </dataNorth>
+                                    <dataSouth>
+                                        <offset>(-0.12,0,0)</offset>
+                                    </dataSouth>
+                                    <dataEast>
+                                        <offset>(0,0,0.12)</offset>
+                                    </dataEast>
+                                    <dataWest>
+                                        <offset>(0,0,-0.12)</offset>
+                                    </dataWest>
+                                </value>
+                            </li>
+                        </apparelSpecificDrawData>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/Genes40k.ShoulderIconDef[@Name="BEWH_ChapterShoulderIcon"]</xpath>
+                    <value>
+                        <apparelSpecificDrawData>
+                            <li>
+                                <key>BEWH_IndomitusPowerArmor</key>
+                                <value>
+                                    <dataNorth>
+                                        <offset>(-0.12,0,0)</offset>
+                                    </dataNorth>
+                                    <dataSouth>
+                                        <offset>(0.12,0,0)</offset>
+                                    </dataSouth>
+                                    <dataEast>
+                                        <offset>(0,0,-0.12)</offset>
+                                    </dataEast>
+                                    <dataWest>
+                                        <offset>(0,0,0.12)</offset>
+                                    </dataWest>
+                                </value>
+                            </li>
+                        </apparelSpecificDrawData>
+                    </value>
+                </li>
             </operations>
         </match>
     </Operation>

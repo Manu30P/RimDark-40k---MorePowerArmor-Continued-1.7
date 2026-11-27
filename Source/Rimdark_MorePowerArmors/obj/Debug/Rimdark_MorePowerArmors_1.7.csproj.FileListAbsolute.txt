@@ -1,0 +1,11 @@
+C:\Users\Manu30\Documents\GitHub\RimDark-40k---MorePowerArmor-Continued-1.7\1.7\Assemblies\Rimdark_MorePowerArmors.deps.json
+C:\Users\Manu30\Documents\GitHub\RimDark-40k---MorePowerArmor-Continued-1.7\1.7\Assemblies\Rimdark_MorePowerArmors.dll
+C:\Users\Manu30\Documents\GitHub\RimDark-40k---MorePowerArmor-Continued-1.7\1.7\Assemblies\Rimdark_MorePowerArmors.pdb
+C:\Users\Manu30\Documents\GitHub\RimDark-40k---MorePowerArmor-Continued-1.7\Source\Rimdark_MorePowerArmors\obj\Debug\Rimdark_MorePowerArmors_1.7.csproj.AssemblyReference.cache
+C:\Users\Manu30\Documents\GitHub\RimDark-40k---MorePowerArmor-Continued-1.7\Source\Rimdark_MorePowerArmors\obj\Debug\Rimdark_MorePowerArmors_1.7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Manu30\Documents\GitHub\RimDark-40k---MorePowerArmor-Continued-1.7\Source\Rimdark_MorePowerArmors\obj\Debug\Rimdark_MorePowerArmors_1.7.csproj.CoreCompileInputs.cache
+C:\Users\Manu30\Documents\GitHub\RimDark-40k---MorePowerArmor-Continued-1.7\Source\Rimdark_MorePowerArmors\obj\Debug\Rimdark_MorePowerArmors_1.7.sourcelink.json
+C:\Users\Manu30\Documents\GitHub\RimDark-40k---MorePowerArmor-Continued-1.7\Source\Rimdark_MorePowerArmors\obj\Debug\Rimdark_MorePowerArmors.dll
+C:\Users\Manu30\Documents\GitHub\RimDark-40k---MorePowerArmor-Continued-1.7\Source\Rimdark_MorePowerArmors\obj\Debug\refint\Rimdark_MorePowerArmors.dll
+C:\Users\Manu30\Documents\GitHub\RimDark-40k---MorePowerArmor-Continued-1.7\Source\Rimdark_MorePowerArmors\obj\Debug\Rimdark_MorePowerArmors.pdb
+C:\Users\Manu30\Documents\GitHub\RimDark-40k---MorePowerArmor-Continued-1.7\Source\Rimdark_MorePowerArmors\obj\Debug\ref\Rimdark_MorePowerArmors.dll
